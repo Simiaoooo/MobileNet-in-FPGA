@@ -23,10 +23,6 @@ step
 );
 
 parameter num_conv=8;
-// ========== 优化控制参数（自动插入） ==========
-parameter USE_LINE_BUFFER_OPT = 1;  // 1=启用Line Buffer优化, 0=Baseline
-parameter USE_PWCONV_OPT = 0;       // 1=启用PWConv优化（暂未实现）
-
 parameter SIZE_weights = 19;
 parameter SIZE_bias = 14;
 parameter SIZE_1=13;
